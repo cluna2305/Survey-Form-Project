@@ -1,0 +1,92 @@
+/*trying to make sure this all aligns while also trying to keep code neat looking...this might be too time consuming at times but i feel it's a good skill to develop*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+body {
+  background: url("https://cdn.stocksnap.io/img-thumbs/960w/DX141B9YMJ.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 28.5px;
+  padding-bottom: 2.5%;
+}
+#title {
+  text-align: center;
+  font-size: 2em;
+  padding: 1.5% 0;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f3f2f3;
+  box-sizing: border-box;
+  border-radius: 50px 50px 50px 50px;
+  opacity: 75%;
+}
+.description {
+  text-align: center;
+  padding: 3%;
+  font-size: 25px;
+}
+.fieldset {
+  border-width: 0;
+  padding-top: 1%;
+}
+ .fieldset-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1%;
+}
+  .dropdown {
+  height: 25px;
+}
+  .userinput {
+  width: 35%;
+  length: auto;
+}
+  .fieldtitle{
+  width: 45%;
+  text-align: right;
+  padding-right: 5%;
+  font-size: 19px;
+  height: 32px;
+  padding-bottom: 2px;
+}
+  .list {
+  list-style-type: none;
+}
+  .button {
+  padding: 1% 3%;
+  border-radius: 30px 30px 30px 30px;
+  margin: 2% 48%;
+  background-color: #27db99;
+  border: 0;
+  font-size: 1.4em;
+}
+@media (max-width: 800px) {
+    
+    body {
+    font-size: 12px;
+    //background-color: pink; 
+    line-height: 1.4em;
+  }
+}
+@media (max-width: 580px) {
+    body {
+    font-size: 10px;
+    //background-color: blue; 
+    line-height: 1.2em;
+  }
+}
+:focus {
+  outline: 5px solid #f11fcc;
+}
+
